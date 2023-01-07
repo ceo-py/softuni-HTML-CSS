@@ -21,7 +21,9 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
-
+article p{
+    font-size: 24px;
+}
 section{
     margin-left: 20px;
 }
@@ -30,9 +32,7 @@ header h1{
 }
 header p{
     font-style: italic;
-}
-article p{
-    font-size: 24px;
+    font-size: 18px;
 }
 body{
     margin: 0;
@@ -45,4 +45,5 @@ footer{
     text-align: center;
     padding: 10px;
     color: #fff;
+    font-size: 18px;
 }
