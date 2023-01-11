@@ -1,4 +1,4 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -6,7 +6,7 @@ body{
     font-size: 18px;
 }
 ul{
-    list-style: none;
+    list-style-type: none;
 }
 ul.check i{
     color: #2fcc71;
