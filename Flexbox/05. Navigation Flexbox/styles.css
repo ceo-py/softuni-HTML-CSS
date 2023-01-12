@@ -1,0 +1,55 @@
+body {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+
+body header {
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+nav {
+    display: flex;
+    flex: 5 0 auto;
+}
+
+header > p {
+    flex: 1 0 auto;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+ul {
+    display: flex;
+    flex: 10 0 auto;
+    align-items:center;
+    gap: 30px;
+    flex-flow: row-reverse;
+}
+
+li:nth-last-child(1) {
+    order: 1
+}
+
+li:nth-last-child(2) {
+    order: 2
+}
+
+li:nth-last-child(3) {
+    order: 3
+}
+
+li:nth-last-child(4) {
+    order: 4
+}
