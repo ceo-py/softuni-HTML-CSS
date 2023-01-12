@@ -1,0 +1,82 @@
+body {
+    height: 70vh;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+span {
+    border: 1px solid black;
+    text-align: center;
+    height: 25%;
+}
+
+div, section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+div {
+    max-width: 65vw;
+    gap: 0px;
+}
+
+.week {
+    flex-basis: 70%;
+}
+
+.week span:nth-child(1) {
+    flex: 5 1 100%;
+}
+
+.week span:nth-child(2) {
+    flex: 1 1 auto;
+}
+
+.week span:nth-child(3) {
+    flex: 1 1 auto;
+}
+
+.week span:nth-child(4) {
+    flex: 1 1 auto;
+}
+
+.week span:nth-child(5) {
+    flex: 1 1 auto;
+}
+
+.week span:nth-child(6) {
+    flex: 1 1 auto;
+}
+
+.week span:nth-child(7) {
+    flex: 5 1 100%;
+}
+
+.week span:nth-child(8) {
+    flex: 1 1 auto;
+}
+
+.week span:nth-child(9) {
+    flex: 1 1 auto;
+}
+
+.notes {
+    flex-basis: 30%;
+    flex-direction: column;
+}
+
+.notes > span:nth-child(1) {
+    flex: 1 1 auto;
+    height: 28%;
+    width: 100%;
+}
+
+.notes > span:nth-child(2) {
+    flex: 1 1 auto;
+    height: 25%;
+    width: 100%;
+}
