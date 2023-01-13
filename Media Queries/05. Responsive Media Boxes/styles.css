@@ -1,0 +1,43 @@
+html {
+	font-family: Helvetica, sans-serif;
+}
+
+.container {
+	padding: 10px 20px 20px 20px;
+	display: grid;
+	grid-template-areas:
+		'h1 h1 h1'
+		'p p p'
+		'. . button';
+}
+
+body {
+	background-color: rgb(238, 238, 238);
+}
+
+section {
+	background-color: rgb(255, 255, 255);
+}
+
+p {
+	grid-area: p;
+}
+
+button {
+	background-color: rgb(0, 153, 0);
+	color: white;
+	padding: 7px 12px;
+	margin-top: 5px;
+	grid-area: button;
+	border-radius: 5px;
+}
+
+h1 {
+	font-family: Georgia, serif;
+	font-size: 1em;
+	grid-area: h1;
+}
+
+section {
+	width: 400px;
+}
