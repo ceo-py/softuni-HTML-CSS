@@ -1,0 +1,19 @@
+body{
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+}
+header, main, footer{
+    flex-basis: 100%;
+    padding-left: 20px;
+}
+header h1{
+    border-bottom: 3px solid black;
+    padding-bottom: 50px;
+}
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
