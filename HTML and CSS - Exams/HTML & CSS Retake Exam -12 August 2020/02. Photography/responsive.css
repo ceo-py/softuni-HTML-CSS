@@ -1,1 +1,42 @@
-/* TODO: Add media queries */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    header .avatar img {
+        width: 14em;
+    }
+
+    .icon.style2 {
+        background-color: rgba(255, 255, 255, 0.3);
+        border: solid 2px rgba(255, 255, 255, 0.25);
+    }
+
+    .thumbnails {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .thumbnails > div {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        margin: 0 0 2em 0;
+    }
+
+    .thumbnails a img {
+        height: 280px;
+    }
+
+    .thumbnails a {
+        border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+    }
+
+    .thumbnails > div > :last-child {
+        margin: 0 0 2em 0;
+    }
+
+    footer p {
+        font-size: 24px;
+    }
+}
