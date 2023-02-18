@@ -1,0 +1,79 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("reset.css");
+
+body {
+    font-family: "Open Sans", sans-serif;
+    width: 800px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+}
+
+header {
+    background: #001216;
+    border-radius: 5px 5px 0 0;
+    padding: 12px;
+}
+
+header h1 {
+    color: #2ee9f2;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+header p {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+}
+
+main {
+    padding: 30px 12px;
+    display: flex;
+    gap: 10px;
+}
+
+main .img {
+    flex: 40%;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+main .img img {
+    padding: 0 12px;
+}
+
+main .img p {
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+main .content {
+    flex: 60%;
+}
+
+main .content p {
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+footer h2 {
+    background: #001216;
+    color: white;
+    width: 33%;
+    font-weight: 600;
+    padding: 5px 12px;
+    margin-bottom: 0;
+}
+
+footer ul {
+    margin-top: 0;
+    background: #d9ebeb;
+    font-size: 20px;
+    list-style: none;
+    padding: 24px;
+}
+
+footer span {
+    font-weight: 700;
+}
