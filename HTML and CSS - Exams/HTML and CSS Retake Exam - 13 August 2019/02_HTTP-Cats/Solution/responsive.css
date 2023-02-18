@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+    header > .logo {
+        margin: 6rem 0 10rem;
+    }
+    header > .logo a {
+        font-size: 7rem;
+    }
+
+    header > .logo span {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .wrapper > header h2 {
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+
+    .wrapper > header h2:after {
+        width: 40%;
+        height: 2px;
+    }
+
+    .wrapper > header p {
+        font-size: 1.1rem;
+        padding-bottom: 3rem;
+    }
+
+    .wrapper.style2 {
+        padding: 2rem;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery > * {
+        width: 100%;
+    }
+
+    .spotlight {
+        flex-direction: column;
+    }
+
+    .spotlight > * {
+        width: 100%;
+    }
+
+    .spotlight .inner {
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+
+    .spotlight .inner h3 {
+        font-size: 2rem;
+    }
+
+    .spotlight .inner p {
+        font-size: 1.6rem;
+        padding-bottom: 1rem;
+    }
+
+    footer {
+        font-size: 1.5rem;
+    }
+}
