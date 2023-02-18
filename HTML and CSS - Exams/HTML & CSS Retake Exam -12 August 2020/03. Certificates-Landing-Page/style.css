@@ -1,0 +1,229 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Montserrat:wght@400;500;600;800&display=swap");
+
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px 100px;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 1px 1px 12px 0px rgba(105, 95, 95, 0.75);
+    color: #546170;
+}
+
+.left {
+    padding: 30px;
+}
+
+.left img {
+    width: 150px;
+}
+
+.right .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.right .item {
+    padding: 30px 12px;
+}
+
+.right .item__profile {
+    background: #42abf8;
+    border-radius: 100%;
+    padding: 14px;
+    color: white;
+    margin: 16px 30px 16px 0;
+}
+
+.right .active {
+    border-top: 7px solid #42abf8;
+    padding-top: 20px;
+}
+
+.hero__img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    opacity: 0.1;
+}
+
+/* MAIN HERO */
+
+.hero {
+    display: flex;
+    gap: 100px;
+    margin: 0 180px;
+}
+
+.hero__content {
+    background: #29394b;
+    color: white;
+    /*flex: 65%;*/
+    padding: 24px;
+}
+
+.hero__content .hero__title,
+.diploma__content .diploma__title,
+.explore .explore__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 24px;
+}
+
+.hero__content .hero__desc,
+.diploma__content .diploma__desc,
+.explore .explore__desc {
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 24px;
+    line-height: 1.5;
+}
+
+.hero__imgs {
+    flex: 35%;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+}
+
+.hero__imgs .light {
+    height: 90%;
+}
+
+.hero__imgs .dark {
+    height: 100%;
+}
+
+.hero__footer {
+    margin: 40px 200px;
+    font-size: 24px;
+    font-style: oblique;
+    color: #29394b;
+}
+
+/* MAIN DIPLOMA */
+
+.diploma__content {
+    color: #29394b;
+}
+
+.diploma__content .diploma__title {
+    text-align: center;
+    margin: 150px auto 50px;
+}
+
+.diploma__content .diploma__desc {
+    margin: 0 110px;
+    padding: 30px;
+    background: #f4f5f7;
+}
+
+.diploma__content .diploma__desc p {
+    margin-bottom: 20px;
+}
+
+.diploma__footer {
+    margin: 40px 110px;
+    font-size: 22px;
+    color: #29394b;
+}
+
+/* MAIN EXPLORE */
+
+.explore {
+    text-align: center;
+    position: relative;
+    margin: 150px 110px 50px;
+    color: white;
+    border-radius: 12px;
+    background-color: rgba(49, 82, 96, 0.55);
+}
+
+.explore img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 12px;
+}
+
+.explore__title {
+    padding: 50px;
+}
+
+.explore__desc {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.explore__footer {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    gap: 50px;
+    padding: 15px 50px 50px;
+    margin: 0 auto;
+}
+
+.divider {
+    height: 50px;
+    width: 2px;
+    background: white;
+}
+
+.btn__right,
+.btn__left {
+    padding: 15px 60px;
+    border-radius: 12px;
+    border: none;
+    font-size: 24px;
+}
+
+.btn__left {
+    background: white;
+    color: #42abf8;
+}
+
+.btn__right {
+    background: bottom;
+    color: white;
+    border: 1px solid white;
+}
+
+footer {
+    margin: 50px 110px;
+    border-top: #3e4c5d;
+    color: #3e4c5d;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #546170;
+}
+
+footer .left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: #abaeb2;
+}
+
+.left span {
+    display: inline-block;
+}
