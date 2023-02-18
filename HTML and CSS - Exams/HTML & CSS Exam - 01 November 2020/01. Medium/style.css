@@ -1,0 +1,65 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+  font-size: 38px;
+}
+
+header {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.header__title {
+  font-size: 110px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header__desc,
+.content__desc {
+  padding-top: 20px;
+  color: #757677;
+}
+
+main {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+footer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.left {
+  flex: 50%;
+}
+
+.right {
+  flex: 50%;
+}
+
+.content__title {
+  padding: 20px 0;
+}
+
+span {
+  background-color: #cefde9;
+}
+.btn {
+  padding: 20px 140px;
+  background: #03a87c;
+  border: none;
+  color: white;
+}
+
+.divider {
+  width: 700px;
+  height: 2px;
+  background-color: #757677;
+  margin: 100px auto;
+}
