@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+    header h2 {
+        font-size: 24px;
+        width: 120px;
+        padding: 3px;
+    }
+
+    .main-movie-poster {
+        display: none;
+    }
+
+    .movies {
+        margin: 50px 0px 150px;
+    }
+
+    .movie {
+        width: 335px;
+        height: 235px;
+    }
+
+    iframe {
+        width: 500px;
+        height: 300px;
+    }
+}
+@media (max-width: 414px) {
+    header h2 {
+        font-size: 15px;
+        width: 85px;
+        padding: 3px;
+    }
+
+    iframe {
+        width: 400px;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .movie-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movies {
+        margin: 50px 0px 0px;
+    }
+
+    .movie {
+        width: 335px;
+        height: 350px;
+    }
+}
