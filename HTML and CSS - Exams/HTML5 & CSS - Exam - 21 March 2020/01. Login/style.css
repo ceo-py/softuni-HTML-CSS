@@ -1,0 +1,69 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;800;900&display=swap");
+
+@import url("reset.css");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+main img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    color: #7582a1;
+    border-radius: 12px;
+    width: 450px;
+    height: 300px;
+}
+
+label {
+    padding: 20px 0 5px;
+    border-bottom: 1px solid rgb(196, 195, 195);
+}
+
+input {
+    border: none;
+    font-size: 24px;
+}
+
+i {
+    padding: 40px 40px 0 40px;
+    color: grey;
+    font-size: 24px;
+}
+
+button {
+    padding: 8px 20px;
+    margin: 30px 120px;
+    border-radius: 24px;
+    background-color: #d41872;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: none;
+}
