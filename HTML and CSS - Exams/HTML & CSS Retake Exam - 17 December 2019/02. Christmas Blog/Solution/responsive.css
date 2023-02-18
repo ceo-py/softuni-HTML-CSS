@@ -1,0 +1,39 @@
+@media screen and (max-width: 1236px) {
+    main {
+        flex-direction: column;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .big_article .article .article_text h3 {
+        font-size: 1em;
+    }
+
+    .big_article .article {
+        width: 15em;
+        height: 16em;
+        /* margin: 0 10px 10px 0; */
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row_articles {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
