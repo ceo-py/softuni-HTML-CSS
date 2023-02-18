@@ -1,0 +1,70 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700;800;900&display=swap");
+
+:root {
+  --clr-green-text: #a4c639;
+  --clr-grey-bg: #f7f7f7;
+  --clr-grey-text: #c5c5c5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.header__title {
+  font-size: 36px;
+}
+
+.header__desc {
+  font-size: 14px;
+  letter-spacing: 1.1px;
+}
+span {
+  color: var(--clr-green-text);
+}
+
+.main {
+  width: 70%;
+  margin: 48px auto;
+}
+
+.cards {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.card {
+  background-color: var(--clr-grey-bg);
+}
+.content {
+  padding: 20px;
+}
+
+.card__title {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.card__desc {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.card__btn {
+  background: var(--clr-green-text);
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 28px;
+  border-radius: 32px;
+  margin: 20px 0;
+  text-shadow: 0 0 black;
+  border: none;
+}
