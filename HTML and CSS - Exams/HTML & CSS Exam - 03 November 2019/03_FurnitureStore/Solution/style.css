@@ -1,0 +1,185 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+
+@import url("reset.css");
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+header {
+    background: #f93700;
+    display: flex;
+    padding: 0 60px;
+    align-items: center;
+}
+
+header nav {
+    flex: 43%;
+}
+
+header nav ul {
+    list-style: none;
+    color: #fdedf5;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+}
+
+header form {
+    flex: 40%;
+    display: flex;
+    justify-content: end;
+}
+
+header form input {
+    padding: 10px 250px 10px 10px;
+}
+
+header form input::placeholder {
+    color: #9197ad;
+}
+
+header form button {
+    background-color: #b6afaf;
+    padding: 10px 35px;
+    border: none;
+    color: #fdedf5;
+}
+
+header div {
+    flex: 18%;
+    display: flex;
+    justify-content: end;
+    color: #fdedf5;
+    align-items: center;
+}
+
+header div {
+    font-size: 24px;
+}
+
+header div i {
+    padding-right: 12px;
+}
+
+main,
+footer {
+    background: #f0e4e4;
+}
+
+main .cards {
+    padding: 40px 100px 20px;
+    text-align: center;
+    color: #808080;
+}
+
+main .cards ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    gap: 40px;
+    padding-left: 0;
+}
+
+main .cards ul li p {
+    font-size: 24px;
+    padding-top: 12px;
+}
+
+main .shop {
+    display: flex;
+    padding: 20px 100px;
+}
+
+main .shop .content {
+    flex: 38%;
+}
+
+main .shop .content h1 {
+    color: #f93700;
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+main .shop .content p {
+    color: #808080;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+main .shop .content button {
+    background-color: #f93700;
+    color: #f0e4e4;
+    font-size: 20px;
+    padding: 18px 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+main .contact {
+    margin: 20px 100px 0;
+    background: #cac3c3;
+}
+
+main .contact ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    color: #474245;
+}
+
+main .contact ul li img {
+    width: 160px;
+    border-radius: 100%;
+    background-color: #f0e4e4;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+main .contact ul li h3 {
+    font-size: 24px;
+}
+
+main .contact ul li p {
+    font-size: 20px;
+    color: #6d6c84;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #808080;
+    padding: 24px 100px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+
+footer .right ul li button {
+    padding: 5px 60px;
+    background-color: #b6afaf;
+    color: #474245;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer .right ul li i {
+    padding: 0 15px;
+    font-size: 32px;
+}
