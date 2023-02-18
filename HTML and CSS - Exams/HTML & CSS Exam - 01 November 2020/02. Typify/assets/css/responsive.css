@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+  .banner h2 {
+    width: 90%;
+    font-size: 1.8em;
+  }
+  .button.special,
+  input[type="submit"] {
+    padding: 0 10.5em;
+  }
+
+  .wrapper {
+    padding: 2em 0 0 0;
+  }
+
+  .wrapper > .inner,
+  .wrapper > .inner.narrow {
+    width: 90%;
+  }
+
+  header.major {
+    margin-bottom: 2em;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+
+  .feature {
+    width: 100%;
+  }
+}
