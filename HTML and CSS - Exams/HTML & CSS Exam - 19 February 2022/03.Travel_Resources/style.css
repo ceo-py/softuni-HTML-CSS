@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+
+:root {
+    --btn-bkg: #320910;
+    --border: #cdc0c3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    margin: 40px 300px;
+}
+
+.nav {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: var(--btn-bkg);
+    color: white;
+    padding: 8px 28px;
+    border-radius: 20px;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.first {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+        url("/images/landing-photo.jpg");
+        background-repeat: no-repeat;
+
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+h2, .second > p {
+    margin: 10px auto;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width:  400px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-items: center;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+}
+
+.btn-no-bg{
+    color: black;
+    margin-top: 20px;
+    padding: 8px 28px;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.same_row {
+    display: inline;
+}
