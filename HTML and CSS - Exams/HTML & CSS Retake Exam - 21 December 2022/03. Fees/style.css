@@ -115,6 +115,7 @@ header {
     border-color: #995dc5;
     width: 170px;
     height: 50px;
+    cursor: pointer;
 }
 
 .module__title {
@@ -208,7 +209,7 @@ tr:nth-child(odd) {
 }
 
 .right__img {
-    width: 1160px;
+    width: 400px;
 }
 
 footer {
